@@ -26,7 +26,7 @@ function displayLeaderboard(leaderboard) {
 }
 
 function submitScore(name, score) {
-    fetch('/api/leaderboard', {
+    fetch('https://drinkinggame-back.vercel.app/api/leaderboard', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
